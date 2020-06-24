@@ -17,10 +17,10 @@ class Projects extends Component {
                    React project #1
                </CardTitle>
                <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+               This portfolio site was created as the first REACT project, and it was created with the goal of using Component with the basic REACT grammar. 
                </CardText>
                <CardActions border>
-                    <Button colored>GitHub</Button>
+                    <Button colored onClick="window.open('https://github.com/juser0719/react_portfolio.git')">GitHub</Button>
                     <Button colored>Live_Demo</Button>
                </CardActions>
                <CardMenu style ={{color : '#ff'}}>
@@ -33,10 +33,11 @@ class Projects extends Component {
                    React project #2
                </CardTitle>
                <CardText>
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+               Even very poor ability, I want to help prevent the spread of COVID-19.
+               This website using REACT and React HOOK that allows you to easily view information on the progress of COVID-19 distributed around the world such as infected, treated, and dead people through APIs.
                </CardText>
                <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored onClick="window.open('https://github.com/juser0719/covid19.git')">GitHub</Button>
                 <Button colored>Live_Demo</Button>
                </CardActions>
                <CardMenu style ={{color : '#ff'}}>
@@ -70,10 +71,10 @@ class Projects extends Component {
                 Android project #1
                 </CardTitle>
                 <CardText>
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                This is an Android app that lets you know whether dessert shops in front of the university are open or not.
                 </CardText>
                 <CardActions border>
-                     <Button colored>GitHub</Button>
+                     <Button colored onClick = "window.open('https://play.google.com/store/apps/details?id=com.main.customer')">Google Store</Button>
                      <Button colored>Live_Demo</Button>
                 </CardActions>
                 <CardMenu style ={{color : '#ff'}}>
@@ -86,10 +87,11 @@ class Projects extends Component {
                 Android project #2
                 </CardTitle>
                 <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                In order to make it easier for students and office workers to manage their salaries a little more during the month, they calculate the percentage of their monthly salaries according to their consumption and inform users if they are more than a certain amount.
+                check branch- design upgrade
                 </CardText>
                 <CardActions border>
-                 <Button colored>GitHub</Button>
+                 <Button colored onClick = "window.open('https://github.com/jryang-19/Accountbook.git')" >GitHub</Button>
                  <Button colored>Live_Demo</Button>
                 </CardActions>
                 <CardMenu style ={{color : '#ff'}}>
@@ -119,7 +121,7 @@ class Projects extends Component {
             <div className = "project-grid">
             {/* SW project1 */}
             <Card shadow={5} style = {{minWidth: '450', margin:'auto'}}>
-                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://img.extrememanual.net/2018/04/cpu_info_title_01-370x245.jpg) center / cover'}}>
+                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://image.freepik.com/free-vector/blue-cyber-cpu-circuit-future-technology-concept-background_42077-1957.jpg) center / cover'}}>
                 Computer System project #1
                 </CardTitle>
                 <CardText>
@@ -135,7 +137,7 @@ class Projects extends Component {
             </Card>
             {/* SW project2 */}
             <Card shadow={5} style = {{minWidth: '450', margin:'auto'}}>
-                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://img.extrememanual.net/2018/04/cpu_info_title_01-370x245.jpg) center / cover'}}>
+                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://image.freepik.com/free-vector/blue-cyber-cpu-circuit-future-technology-concept-background_42077-1957.jpg) center / cover'}}>
                 Computer System project #2
                 </CardTitle>
                 <CardText>
@@ -151,7 +153,7 @@ class Projects extends Component {
             </Card>
             {/* SW project3 */}
             <Card shadow={5} style = {{minWidth: '450', margin:'auto'}}>
-                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://img.extrememanual.net/2018/04/cpu_info_title_01-370x245.jpg) center / cover'}}>
+                <CardTitle style = {{color: '#fff', height: '176px', background:'url(https://image.freepik.com/free-vector/blue-cyber-cpu-circuit-future-technology-concept-background_42077-1957.jpg) center / cover'}}>
                 Computer System project #3
                 </CardTitle>
                 <CardText>
